@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-txt: #0F172A;
+  --primary: rgb(27 45 107);
+  --primary-hover: rgb(27 45 107 / 0.8);
+  --primary-deep: #0B1120;
+  --secondary: rgb(212 175 55);
+  --secondary-hover: rgb(212 175 55 / 0.8);
+  scroll-behavior: smooth;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-txt: var(--primary-txt);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-deep: var(--primary-deep);
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --breakpoint-md: 992px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Brockmann, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.font-accent {
+  font-family: Barlow Condensed,sans-serif
+}
+
+.font-body {
+    font-family: Manrope, sans-serif;
+}
+.font-heading, h1, h2, h3, h4 {
+  font-family: Playfair Display,serif;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}

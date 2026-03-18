@@ -1,0 +1,60 @@
+const leadershipMembers = [
+  {
+    role: "CEO",
+    name: "Abdul Noor",
+    initials: "AN",
+  },
+  {
+    role: "Non Executive Director",
+    name: "Mohd. Shahnawaz",
+    initials: "MS",
+  },
+  {
+    role: "COO / HR",
+    name: "Md. Minhaj",
+    initials: "MM",
+
+  },
+  {
+    role: "CBO / Sales and Purchase",
+    name: "Furqan",
+    initials: "FU",
+  },
+];
+
+export default function LeadershipSection() {
+  return (
+    <section className="w-full bg-[#f3f4f6]">
+      <div className="mx-auto w-full max-w-400 px-6 py-14 sm:px-10 lg:px-8 lg:py-20">
+        <div className="text-center">
+          <p className="font-accent font-semibold text-xs tracking-widest uppercase text-secondary">
+            Our Team
+          </p>
+          <h2 className="font-heading text-4xl font-bold text-primary-txt mt-2">
+            The People Behind Zavora
+          </h2>
+        </div>
+
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6 lg:justify-items-center">
+          {leadershipMembers.map((member) => (
+            <article
+              key={`${member.role}-${member.name}`}
+              className="w-full border border-slate-300 bg-white px-6 py-6 sm:max-w-sm lg:max-w-md hover:border-secondary"
+            >
+              <div className="font-[auto] w-14 h-14 bg-primary text-secondary flex items-center justify-center mb-4">
+                {member.initials}
+              </div>
+
+              <h3 className="font-heading font-bold text-base text-primary-txt mb-1">
+                {member.name || member.role}
+              </h3>
+              <p className="text-xs font-accent font-semibold tracking-wide text-secondary uppercase mb-3">
+                {member.name ? member.role : "Chief Financial Officer"}
+              </p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
