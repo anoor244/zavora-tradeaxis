@@ -13,7 +13,7 @@ const bulletPoints: string[] = [
 
 const stats: Stat[] = [
   { value: '#3', label: 'Global Leather Exporter' },
-  { value: '5,000+', label: 'Verified Suppliers' },
+  { value: '10+', label: 'Verified Suppliers' },
   { value: '100%', label: 'Compliance Track Record' },
   { value: '45+', label: 'Export Destinations' },
 ];
