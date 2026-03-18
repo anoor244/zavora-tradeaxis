@@ -6,7 +6,7 @@ const leadershipMembers = [
   },
   {
     role: "Non Executive Director",
-    name: "Mohd. Shahnawaz",
+    name: "Mohammad Shahnawaz Alam",
     initials: "MS",
   },
   {
