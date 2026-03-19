@@ -23,7 +23,7 @@ const contactItems = [
   },
   {
     label: "Trade Email",
-    value: "info@zavoratradeaxis.com",
+    value: "info@zavoratradeaxis.com | sales@zavoratradeaxis.com",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
