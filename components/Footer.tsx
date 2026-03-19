@@ -95,7 +95,7 @@ export function Footer() {
                 <div className="flex gap-2 whitespace-nowrap">
                   <a href="mailto:info@zavoratradeaxis.com" className="ml-2 hover:text-secondary">info@zavoratradeaxis.com</a>
                   <span>|</span>
-                  <a href="mailto:sales@zavoratradeaxis.com" className="ml-1 hover:text-secondary">sales@zavoratradeaxis.com</a>
+                  <a href="mailto:sales@zavoratradeaxis.com" className="ml-0 hover:text-secondary">sales@zavoratradeaxis.com</a>
                 </div>
               </li>
               <li className="flex items-center">
