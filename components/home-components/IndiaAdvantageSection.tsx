@@ -12,10 +12,10 @@ const bulletPoints: string[] = [
 ];
 
 const stats: Stat[] = [
-  { value: '#3', label: 'Global Leather Exporter' },
-  { value: '10+', label: 'Verified Suppliers' },
-  { value: '100%', label: 'Compliance Track Record' },
-  { value: '45+', label: 'Export Destinations' },
+  { value: 'Supplier Verification', label: 'We work with suppliers based on product capability, consistency, and documentation readiness' },
+  { value: 'Structured Sourcing', label: 'Clear RFQ → Supplier matching → Sample → Production → Delivery' },
+  { value: 'Documentation Support', label: 'We assist with export documentation, compliance, and coordination' },
+  { value: 'Transparent Communication', label: 'Regular updates and clear coordination throughout the process' },
 ];
 
 export default function IndiaAdvantageSection() {
