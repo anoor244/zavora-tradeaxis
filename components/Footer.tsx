@@ -92,7 +92,7 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-mail text-secondary shrink-0" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                <div className="flex gap-3 whitespace-nowrap">
+                <div className="flex gap-1 whitespace-nowrap">
                   <a href="mailto:info@zavoratradeaxis.com" className="ml-2 hover:text-secondary">info@zavoratradeaxis.com</a>
                   <span>|</span>
                   <a href="mailto:sales@zavoratradeaxis.com" className="ml-2 hover:text-secondary">sales@zavoratradeaxis.com</a>
