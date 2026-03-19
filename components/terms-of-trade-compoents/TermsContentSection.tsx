@@ -164,7 +164,7 @@ export default function TermsContentSection() {
               9. Contact for Trade Queries
             </h2>
             <p className="text-sm leading-relaxed text-slate-600">
-              For any queries related to these terms: trade@zavora-tradeaxis.com
+              For any queries related to these terms: info@zavoratradeaxis.com
             </p>
           </article>
         </div>
