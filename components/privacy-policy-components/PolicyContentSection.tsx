@@ -52,13 +52,13 @@ const policySections = [
     id: "7.",
     title: "Your Rights",
     body:
-      "You have the right to access, correct, or delete your personal information held by us. To exercise these rights, please contact us at trade@zavora-tradeaxis.com.",
+      "You have the right to access, correct, or delete your personal information held by us. To exercise these rights, please contact us at info@zavoratradeaxis.com.",
   },
   {
     id: "8.",
     title: "Contact Us",
     body:
-      "If you have questions about this Privacy Policy, please contact: trade@zavora-tradeaxis.com",
+      "If you have questions about this Privacy Policy, please contact: info@zavoratradeaxis.com",
   },
 ];
 
