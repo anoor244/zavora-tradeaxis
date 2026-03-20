@@ -52,7 +52,7 @@ const policySections = [
     id: "7.",
     title: "Your Rights",
     body:
-      "You have the right to access, correct, or delete your personal information held by us. To exercise these rights, please contact us at info@zavoratradeaxis.com.",
+      "You have the right to access, correct, or delete your personal information held by us. To exercise these rights, please contact us at info@zavoratradeaxis.com",
   },
   {
     id: "8.",
