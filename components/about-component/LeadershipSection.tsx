@@ -5,7 +5,7 @@ const leadershipMembers = [
     initials: "AN",
   },
   {
-    role: "Non Executive Director",
+    role: "Non Managing Executive Director",
     name: "Mohammad Shahnawaz Alam",
     initials: "MS",
   },
