@@ -27,7 +27,7 @@ export async function submitRFQ(
         if(emailResult.success){
             return { success: true, message: "RFQ submitted successfully.", issues: [] };
         }else{
-            return { success: false, message: "RFQ Request Failed.", issues: [] };
+            return { success: false, message: "RFQ Request Failed."+JSON.stringify(emailResult.error), issues: [] };
         }
         
     }

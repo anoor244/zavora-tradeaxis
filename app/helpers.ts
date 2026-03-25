@@ -52,14 +52,12 @@ const renderDetailRows = (data: IQuotaionData) => {
         .map(
             (item, index) => `
                 <tr>
-                    <td style="padding:12px 0; width:36%; vertical-align:top; border-bottom:${
-                        index === details.length - 1 ? "0" : "1px solid #e4e7ec"
-                    }; font-family:'Trebuchet MS', Arial, sans-serif; font-size:13px; font-weight:700; color:#344054;">
+                    <td style="padding:12px 0; width:36%; vertical-align:top; border-bottom:${index === details.length - 1 ? "0" : "1px solid #e4e7ec"
+                }; font-family:'Trebuchet MS', Arial, sans-serif; font-size:13px; font-weight:700; color:#344054;">
                         ${item.label}
                     </td>
-                    <td style="padding:12px 0; vertical-align:top; border-bottom:${
-                        index === details.length - 1 ? "0" : "1px solid #e4e7ec"
-                    }; font-family:'Trebuchet MS', Arial, sans-serif; font-size:14px; color:#101828; line-height:1.55;">
+                    <td style="padding:12px 0; vertical-align:top; border-bottom:${index === details.length - 1 ? "0" : "1px solid #e4e7ec"
+                }; font-family:'Trebuchet MS', Arial, sans-serif; font-size:14px; color:#101828; line-height:1.55;">
                         ${item.value}
                     </td>
                 </tr>
@@ -152,13 +150,16 @@ export async function emailQuotaion(data: IQuotaionData) {
     }
 
     const transporter = nodemailer.createTransport({
-        service: "gmail",
+        host: "smtp.hostinger.com",
+        port: 465,
+        secure: true,
         auth: {
-            user: emailUser,
-            pass: emailPass,
+            user: "info@zavoratradeaxis.com",
+            pass: "Zavoratradeaxis@244"
         },
+        logger: true,
+        debug: true
     });
-
     const mailOptions = {
         from: `"Zavora TradeAxis" <${emailUser}>`,
         to: emailReceiver,
