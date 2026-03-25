@@ -29,12 +29,7 @@ export const RFQSchema = z.object({
     productCategory: ProductCategorySchema,
     quantity: z.preprocess(
         toTrimmedString,
-        z
-            .string()
-            .min(1, 'Quantity is required')
-            .refine((value) => !Number.isNaN(Number(value)), 'Quantity must be a valid number')
-            .transform((value) => Number(value))
-            .pipe(z.number().positive('Quantity must be a positive number'))
+        z.string().min(1, 'Quantity is required').min(3, 'Invalid Quantity').max(100, 'Quantity too long')
     ),
     productSpecifications: z.preprocess(
         toTrimmedString,
