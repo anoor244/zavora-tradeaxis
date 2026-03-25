@@ -4,7 +4,7 @@ export interface IQuotaionData {
     companyName: string;
     country: string;
     productCategory: string;
-    quantity: number;
+    quantity: string;
     productSpecifications: string;
     paymentMode: string;
     businessEmail: string;
