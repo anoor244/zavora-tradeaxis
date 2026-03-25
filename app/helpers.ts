@@ -155,7 +155,7 @@ export async function emailQuotaion(data: IQuotaionData) {
         secure: true,
         auth: {
             user: "info@zavoratradeaxis.com",
-            pass: "Zavoratradeaxis@244"
+            pass: process.env.EMAIL_PASS
         },
         logger: true,
         debug: true
