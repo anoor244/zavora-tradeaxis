@@ -12,7 +12,7 @@ const bulletPoints: string[] = [
 ];
 
 const stats: Stat[] = [
-  { value: 'Supplier Verification', label: 'We work with suppliers based on product capability, consistency, and documentation readiness' },
+  { value: 'Supplier Verification', label: '' },
   { value: 'Structured Sourcing', label: 'Clear RFQ → Supplier matching → Sample → Production → Delivery' },
   { value: 'Documentation Support', label: 'We assist with export documentation, compliance, and coordination' },
   { value: 'Transparent Communication', label: 'Regular updates and clear coordination throughout the process' },
