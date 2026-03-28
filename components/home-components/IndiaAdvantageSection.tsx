@@ -13,9 +13,9 @@ const bulletPoints: string[] = [
 
 const stats: Stat[] = [
   { value: 'Supplier Verification', label: '' },
-  { value: 'Structured Sourcing', label: 'Clear RFQ → Supplier matching → Sample → Production → Delivery' },
-  { value: 'Documentation Support', label: 'We assist with export documentation, compliance, and coordination' },
-  { value: 'Transparent Communication', label: 'Regular updates and clear coordination throughout the process' },
+  { value: 'Structured Sourcing', label: '' },
+  { value: 'Documentation Support', label: '' },
+  { value: 'Transparent Communication', label: '' },
 ];
 
 export default function IndiaAdvantageSection() {
