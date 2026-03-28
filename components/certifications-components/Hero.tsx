@@ -8,7 +8,7 @@ export default function Hero() {
           </p>
 
           <h1 className="font-heading text-5xl md:text-6xl font-bold text-white mt-3 mb-5 max-w-xl">
-            Our Certifications
+            Our Compliance & Certifications
           </h1>
 
           <p className="text-white/70 text-lg font-body leading-relaxed max-w-2xl">
