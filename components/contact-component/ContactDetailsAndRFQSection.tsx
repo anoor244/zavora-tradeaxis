@@ -114,7 +114,7 @@ export default function ContactDetailsAndRFQSection() {
           </div>
 
           <Link
-            href="https://wa.me/918796911703"
+            href="https://wa.me/+91 8796911703"
             className="mt-8 inline-flex h-11 w-full items-center justify-center gap-2 bg-[#25D366] px-4 text-sm font-semibold text-white transition-colors hover:bg-[#1eb859]"
           >
             <svg
