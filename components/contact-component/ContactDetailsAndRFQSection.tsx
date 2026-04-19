@@ -41,7 +41,7 @@ const contactItems = [
   },
   {
     label: "WhatsApp Business",
-    value: "+91 98765 43210",
+    value: "+91 87969 11703",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ export default function ContactDetailsAndRFQSection() {
           </div>
 
           <Link
-            href="https://wa.me/9876543210"
+            href="https://wa.me/8796911703"
             className="mt-8 inline-flex h-11 w-full items-center justify-center gap-2 bg-[#25D366] px-4 text-sm font-semibold text-white transition-colors hover:bg-[#1eb859]"
           >
             <svg
