@@ -4,7 +4,7 @@ import Link from "next/link";
 const contactItems = [
   {
     label: "Office Address",
-    value: "New Delhi, India - 110025",
+    value: "R-87, Street 8, Batla House, Jamia Nagar, New Delhi – 110025, India",
     subValue: "Registered Merchant Exporter",
     icon: (
       <svg
